@@ -13,7 +13,7 @@ int main(){
 	printf("\nInitializing Data Set and Neural Net...\n");
 	
 	DataSet data_set;
-	data_set.set_data_file_name("DATA\\dataset.dat");
+	data_set.set_data_file_name("..\\..\\..\\TF_data\\CPP_NN\\dataset.dat");
 	data_set.set_separator("Comma");
 	data_set.load_data();
 	

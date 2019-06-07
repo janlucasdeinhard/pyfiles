@@ -12,7 +12,7 @@ int disp(Mat,char*,bool);
 
 int main(){
 	
-	Mat img = imread("DATA\\img0.jpg",CV_LOAD_IMAGE_GRAYSCALE);
+	Mat img = imread("..\\..\\..\\TF_data\\READER\\img0.jpg",CV_LOAD_IMAGE_GRAYSCALE);
 	disp(img,"Full",true);  
 	
 	int xframesize = 500;
