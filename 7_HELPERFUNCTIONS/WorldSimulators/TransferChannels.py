@@ -1,6 +1,6 @@
 from numpy import random as rnd
 
-class MIMOChannel:    
+class MIMOTimeInvariant:    
     def __init__(self,n,m,mu_d=0,sigma_d=0):
         
         self.out_size = n
