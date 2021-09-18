@@ -12,6 +12,6 @@ class MIMOTimeInvariant:
         try:
             x = x.reshape(self.in_size,-1)
         except: raise Exception('Wrong input shape. Expected shape (-1,{}), found shape {}'.format(self.in_size,x.shape))
-        n = self.sigma_d*rnd.randn(self.out_size,1) + self.mu_d
-        y = self.H.dot(x) + n
+        r = self.sigma_d*rnd.randn(self.out_size,1) + self.mu_d
+        y = self.H.dot(x) + r
         return y.reshape(-1,self.out_size)
