@@ -1,0 +1,2 @@
+# Cliodynamical Evaluation
+The purpose of this script is to explore the prospects of large cliodynamic datasets to predict socio-economic trends and phase transitions. The dataset consists of numerous US socio-economic indicators measured over time.
