@@ -1,7 +1,6 @@
 SELECT
 "ACCOUNT_ID",
 "ASSET_ID",
-"Is Partner (Flag)",
 "LEAD_ID",
 "Last Automatic Assignment Date",
 "Lead Age in Days",

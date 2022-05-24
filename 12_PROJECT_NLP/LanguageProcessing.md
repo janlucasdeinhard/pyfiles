@@ -15,3 +15,5 @@ This directory contains all files related to Natural Language Processing. I broa
   Used for pretrained model tests, for integration with other projects. Currently only BERT.
 * Tweet Bot
   Goal of this project is to construct a bot which can synthesize Tweets which sound plausible. This is a downgraded version of building a machine to pass the Turing test.
+* Book Ingest
+Goal of this project is to pull a digitized book asset in the form of a png or jpeg, and extract the text into txt files.
