@@ -6,6 +6,8 @@ effort down into the following sub-projects:
 * CorrelationCausalAnalysis
   An attempt to quantify an ML learning algorithm's ability to tease apart correlation from causal relationship. This can be accomplished based on allowing the agent
   to perform experiments in a causal graph.
+* Deep Transfer Learning
+  This is a look at various deep learning techniques and whether they can transfer to mulitple tasks.
 * Entropy
   Here the entropy of different graph networks is compared. The assumption is that living organisms, or neural circuits, can be characterized as regions of space
   which regulate themselves such that the delta entropy over time is minimized, respecting the 2nd law of thermodynamics. A preliminary goal is to craft an algorithm
